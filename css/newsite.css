@@ -1,0 +1,85 @@
+/**New site style**/
+.newSiteSocial .socials-box {display: none !important;}
+.first_col .footer_text {padding-right: 36px;}
+.newsitepage .main_menu_nav>li {font-size: 18px;}
+.newsitepage .main_menu_nav>li>a {padding: 21px 10px;}
+.newsitepage .elementor-widget-video .eicon-play {border-radius: 50%;}
+
+
+/* 17-10-23 */
+.page-id-31609 #main,.page-id-31666 #main {
+    padding-bottom: 0;
+}
+
+
+.img-blog-section.culturepage .elementor-container {
+   display: grid;
+   gap: 25px;
+}
+.img-blog-section .imglifeprovana .elementor-image-box-content {
+    min-height: auto;
+}
+.img-blog-section .imglifeprovana img {
+    height: auto !important;
+}
+
+.img-blog-section .elementor-container .elementor-column {
+    width: 100% !important;
+}
+.img-blog-section .elementor-widget-wrap{
+	    align-content: space-between !important;
+}
+.img-blog-section .imglifeprovana .elementor-image-box-content {
+    min-height: auto;
+}
+.img-blog-section .elementor-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.img-blog-section.ourValueBoxes .elementor-container {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: unset !important;
+}
+
+.newSiteLife.lifeat .elementor-container.elementor-column-gap-default .imglifeprovana {
+    background: #f2f4fa;
+    height: 100%;
+}
+/* .provana-life-video video {
+    max-height: 302px;
+} */
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1100px) {
+    .newSiteSocial .main_menu_nav>li>a {padding: 21px 6px;}
+    .newSiteSocial .main_menu_nav>li {font-size: 18px;}
+    .newsitepage .header-box .container .logo-box .logo a img {width: 140px !important;}
+}
+
+@media only screen and (min-width: 767px){
+#videosSliderInner .elementor-widget-wrap.slick-slider {margin-bottom: 0 !important;}
+
+}
+@media only screen and (max-width: 767px) {
+    .img-blog-section .elementor-container {
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}
+@media only screen and (max-width: 600px) {
+    .img-blog-section .elementor-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-width: 479px) {
+    .newsitepage h1.consulting-custom-title {margin-bottom: 20px !important; font-size: 36px !important; line-height: 45px !important;}
+    .newsitepage .elementor-widget-video .eicon-play:before {top: 19px; left: 25px;}
+    .newsitepage .elementor-widget-video .eicon-play {width: 58px; height: 58px;}
+    .newsitepage .elementor-widget-video .eicon-play {margin: -30px 0 0 -30px;}
+}
+
+
